@@ -132,7 +132,14 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(139, 40, 1, 0.1);
-  border-radius: 50%;
+  border-radius: 50%; /* Torna a div circular */
+  overflow: hidden; /* Garante que a imagem não exceda os limites da div */
+}
+
+.value-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem cubra todo o contêiner sem distorção */
 }
 
 .value-item h3 {
@@ -196,6 +203,7 @@
 .member-bio {
   padding: 0 20px 20px;
   color: var(--text-light);
+  text-align: justify;
 }
 
 /* Responsive Styles for History Page */

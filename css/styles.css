@@ -2,7 +2,7 @@
 :root {
   --primary-color: #8b2801;
   --primary-light: #a33001;
-  --primary-dark: #701f01;
+  --primary-dark: #702a01;
   --secondary-color: #4a6d00;
   --secondary-light: #5a8500;
   --secondary-dark: #3a5500;
@@ -205,12 +205,14 @@ header {
 
 .btn-primary:hover {
   background-color: var(--primary-dark);
+  color: #f0bcbc;
 }
 
 .btn-secondary {
   background-color: transparent;
   color: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  outline: 2px solid var(--primary-color);
+  outline-offset: -2px;
 }
 
 .btn-secondary:hover {
@@ -429,3 +431,5 @@ footer {
     font-size: 2rem;
   }
 }
+
+
