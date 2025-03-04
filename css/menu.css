@@ -4,7 +4,6 @@
 .menu-navigation {
   background-color: var(--background-alt);
   padding: 20px 0;
-  position: sticky;
   top: 80px;
   z-index: 900;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
