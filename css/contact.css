@@ -1,0 +1,121 @@
+/* Contact Page Styles */
+
+/* Contact Info Section */
+.contact-info-section {
+  padding: 60px 0;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+}
+
+.info-item {
+  margin-bottom: 30px;
+}
+
+.info-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.contact-form-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  padding: 30px;
+  background-color: var(--background-alt);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+/* Map Section */
+.map-section {
+  padding: 60px 0;
+  background-color: var(--background-alt);
+}
+
+.map-container {
+  margin-top: 30px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.map-placeholder {
+  position: relative;
+  background-color: #eee;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map-note {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 0;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 60px 0;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.faq-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.faq-item p {
+  margin: 0;
+}
+
+/* Responsive Styles for Contact Page */
+@media (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+  }
+}

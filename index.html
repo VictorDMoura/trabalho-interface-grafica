@@ -1,39 +1,303 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Restaurante Sabor da Família</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Famiglia Cucina | Authentic Family Restaurant</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Restaurante Sabor da Família</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html">Cardápio</a></li>
-          <li><a href="historia.html">Nossa História</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
+      <div class="header-container">
+        <div class="logo">
+          <h1>Famiglia Cucina</h1>
+          <p class="tagline">Authentic Family Recipes Since 1978</p>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="history.html">Our Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
-      <section class="banner">
-        <h2>Sabores que unem gerações</h2>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Traditional Flavors, Family Atmosphere</h2>
         <p>
-          Uma tradição familiar servindo comida caseira com carinho e qualidade.
+          Experience the authentic taste of home-cooked meals prepared with love
+          and tradition
         </p>
-        <a href="menu.html" class="btn">Ver Cardápio</a>
-      </section>
-    </main>
+        <div class="hero-buttons">
+          <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+          <a href="#reservation" class="btn btn-secondary"
+            >Make a Reservation</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="feature-item">
+          <div class="feature-icon">
+            <img
+              src="/placeholder.svg?height=60&width=60"
+              alt="Fresh Ingredients Icon"
+            />
+          </div>
+          <h3>Fresh Ingredients</h3>
+          <p>
+            We source only the freshest, locally-grown ingredients for our
+            dishes.
+          </p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <img
+              src="/placeholder.svg?height=60&width=60"
+              alt="Family Recipes Icon"
+            />
+          </div>
+          <h3>Family Recipes</h3>
+          <p>Our menu features recipes passed down through generations.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <img
+              src="/placeholder.svg?height=60&width=60"
+              alt="Cozy Atmosphere Icon"
+            />
+          </div>
+          <h3>Cozy Atmosphere</h3>
+          <p>Enjoy your meal in our warm and welcoming dining environment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-dishes">
+      <div class="container">
+        <h2 class="section-title">Our Signature Dishes</h2>
+        <p class="section-subtitle">
+          Discover the flavors that have made us famous
+        </p>
+
+        <div class="dishes-grid">
+          <div class="dish-card">
+            <div class="dish-image">
+              <img
+                src="/placeholder.svg?height=300&width=400"
+                alt="Pasta Carbonara"
+              />
+            </div>
+            <div class="dish-info">
+              <h3>Pasta Carbonara</h3>
+              <p class="dish-description">
+                Creamy pasta with pancetta, egg, and parmesan cheese.
+              </p>
+              <p class="dish-price">$16.95</p>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-image">
+              <img
+                src="/placeholder.svg?height=300&width=400"
+                alt="Chicken Parmesan"
+              />
+            </div>
+            <div class="dish-info">
+              <h3>Chicken Parmesan</h3>
+              <p class="dish-description">
+                Breaded chicken topped with marinara and melted mozzarella.
+              </p>
+              <p class="dish-price">$18.95</p>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-image">
+              <img src="/placeholder.svg?height=300&width=400" alt="Tiramisu" />
+            </div>
+            <div class="dish-info">
+              <h3>Tiramisu</h3>
+              <p class="dish-description">
+                Classic Italian dessert with coffee-soaked ladyfingers.
+              </p>
+              <p class="dish-price">$8.95</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Guests Say</h2>
+
+        <div class="testimonials-slider">
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>
+                "The best Italian food I've had outside of Italy. The atmosphere
+                makes you feel like you're dining with family."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <p class="author-name">Maria Johnson</p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>
+                "We've been coming here for years and the quality has never
+                wavered. Their pasta carbonara is simply unmatched!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <p class="author-name">Robert Williams</p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>
+                "The service is impeccable and the food is consistently
+                delicious. This place feels like home."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <p class="author-name">Sarah Thompson</p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservation" class="reservation">
+      <div class="container">
+        <div class="reservation-content">
+          <div class="reservation-info">
+            <h2>Make a Reservation</h2>
+            <p>
+              Reserve your table to ensure the best dining experience. For
+              parties larger than 8, please call us directly.
+            </p>
+            <div class="contact-info">
+              <p><strong>Phone:</strong> (555) 123-4567</p>
+              <p><strong>Hours:</strong></p>
+              <p>Monday - Thursday: 11:00 AM - 9:00 PM</p>
+              <p>Friday - Saturday: 11:00 AM - 10:30 PM</p>
+              <p>Sunday: 11:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+
+          <form class="reservation-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required />
+              </div>
+
+              <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="guests">Number of Guests</label>
+              <select id="guests" name="guests" required>
+                <option value="">Select</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6">6 People</option>
+                <option value="7">7 People</option>
+                <option value="8">8 People</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="special-requests">Special Requests</label>
+              <textarea
+                id="special-requests"
+                name="special-requests"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Reserve Table</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <footer>
-      <p>
-        &copy; 2024 Restaurante Sabor da Família | Todos os direitos reservados
-      </p>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>Famiglia Cucina</h3>
+            <p>123 Main Street<br />Anytown, ST 12345</p>
+            <p>Phone: (555) 123-4567<br />Email: info@famigliacucina.com</p>
+          </div>
+
+          <div class="footer-hours">
+            <h3>Hours</h3>
+            <p>Monday - Thursday: 11:00 AM - 9:00 PM</p>
+            <p>Friday - Saturday: 11:00 AM - 10:30 PM</p>
+            <p>Sunday: 11:00 AM - 8:00 PM</p>
+          </div>
+
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="history.html">Our Story</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2023 Famiglia Cucina. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
